@@ -68,7 +68,7 @@ curl http://localhost:5000/balance
    python app.py
    ```
 
-5. Continue to your computer terminal and run your desired `curl` commands (Example requests in Endpoints section).
+5. Continue to your computer terminal and run your desired `curl` commands (Example requests in Endpoints section). You must only change the parts inside the curly brackets.
 
 
 ## Technologies Used
