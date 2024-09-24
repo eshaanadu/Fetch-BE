@@ -53,22 +53,17 @@ curl http://localhost:5000/balance
    git clone https://github.com/eshaanadu/Fetch-BE.git
    ```
 
-2. Navigate to the project directory:
-   ```bash
-   cd Fetch-BE
-   ```
-
-3. Install dependencies (Flask):
+2. Install dependencies (Flask):
    ```bash
    pip install Flask
    ```
 
-4. Run the Flask application:
+3. Run the Flask application:
    ```bash
    python app.py
    ```
 
-5. Continue to your computer terminal and run your desired `curl` commands (Example requests in Endpoints section). You must only change the parts inside the curly brackets.
+4. Continue to your computer terminal and run your desired `curl` commands (Example requests in Endpoints section). You must only change the parts inside the curly brackets.
 
 
 ## Technologies Used
