@@ -48,10 +48,7 @@ curl http://localhost:5000/balance
 
 ### Steps to Run:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/eshaanadu/Fetch-BE.git
-   ```
+1. Clone this repository into your local machine and navigate to the project directory.
 
 2. Install dependencies (Flask):
    ```bash
