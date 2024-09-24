@@ -1,5 +1,30 @@
-1. I chose Python as the primary language for this coding exercise because of its simplicity, readability, and widespread use in backend development. Python allows for rapid prototyping, making it an excellent choice for implementing an API within a short time frame. I opted for Flask as the web framework due to its lightweight nature and ease of use. Flask allows developers to quickly set up RESTful APIs with minimal overhead, making it ideal for this project, where the focus is on basic operations like adding, spending, and retrieving points. Flask also has a robust community, and the documentation is very beginner-friendly, which further streamlines the development process. Additionally, Flask's built-in development server is perfect for running a local API during testing, making it convenient to work with during a coding challenge of this nature.
+1. I chose Python as the primary language for this coding exercise because of its simplicity, 
+readability, and widespread use in backend development. Python allows for rapid prototyping, 
+making it an excellent choice for implementing an API within a short time frame. I opted for Flask 
+as the web framework due to its lightweight nature and ease of use. Flask allows developers to 
+quickly set up RESTful APIs with minimal overhead, making it ideal for this project, where the 
+focus is on basic operations like adding, spending, and retrieving points. Flask also has a robust 
+community, and the documentation is very beginner-friendly, which further streamlines the development 
+process. Additionally, Flask's built-in development server is perfect for running a local API during 
+testing, making it convenient to work with during a coding challenge of this nature.
 
-2. The main advantage of my solution is its simplicity and clarity. By using Python and Flask, the implementation is easy to understand and maintain, especially for small-scale applications like this one. The in-memory storage method (using Python dictionaries and lists) makes the solution fast and efficient for handling small datasets during testing. It allows rapid testing and development without needing external dependencies such as a database, which is useful for a coding challenge scenario. However, the primary disadvantage is that this solution is not suitable for production use. Since the data is stored in-memory, all transactions and balances would be lost if the server is restarted. In a real-world application, a persistent database like PostgreSQL or MongoDB would be necessary to ensure that data is reliably stored. Additionally, the current implementation may struggle with scaling if the number of transactions grows significantly, as sorting the transactions for spending points could become inefficient over time.
+2. The main advantage of my solution is its simplicity and clarity. By using Python and Flask, 
+the implementation is easy to understand and maintain, especially for small-scale applications 
+like this one. The in-memory storage method (using Python dictionaries and lists) makes the solution 
+fast and efficient for handling small datasets during testing. It allows rapid testing and development 
+without needing external dependencies such as a database, which is useful for a coding challenge scenario.
+However, the primary disadvantage is that this solution is not suitable for production use. Since the 
+data is stored in-memory, all transactions and balances would be lost if the server is restarted. In a 
+real-world application, a persistent database like PostgreSQL or MongoDB would be necessary to ensure that 
+data is reliably stored. Additionally, the current implementation may struggle with scaling if the number 
+of transactions grows significantly, as sorting the transactions for spending points could become 
+inefficient over time.
 
-3. One of my favorite projects has been my **Stock Analysis** project, where I developed a Python script to analyze and visualize financial data using the Twelve Data API. The challenge lay in building a robust data pipeline that could handle large datasets efficiently while also implementing various technical indicators like SMA, EMA, RSI, and MACD. I had to ensure that the data fetching, logging, and error handling mechanisms were reliable and accurate, which pushed me to refine my skills in Python, Pandas, and Matplotlib. Additionally, creating an interactive interface for customizable analysis was a rewarding challenge, as I had to balance technical complexity with user accessibility. This project deepened my understanding of data analysis, algorithms, and visualization, and gave me hands-on experience working with real-world financial data.
+3. One of my favorite projects has been my **Stock Analysis** project, where I developed a Python script
+to analyze and visualize financial data using the Twelve Data API. The challenge lay in building a robust
+data pipeline that could handle large datasets efficiently while also implementing various technical 
+indicators like SMA, EMA, RSI, and MACD. I had to ensure that the data fetching, logging, and error handling
+mechanisms were reliable and accurate, which pushed me to refine my skills in Python, Pandas, and Matplotlib. 
+Additionally, creating an interactive interface for customizable analysis was a rewarding challenge, as I 
+had to balance technical complexity with user accessibility. This project deepened my understanding of data 
+analysis, algorithms, and visualization, and gave me hands-on experience working with real-world financial data.
